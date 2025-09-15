@@ -157,7 +157,7 @@ def assign_customer(worker_id, user_id, user_role):
     Args:
         worker_id: The ID of the worker.
         user_id: The ID of the authenticated admin.
-        user_role: The role of the user (must be admin).
+        user_role: The role of the user.
 
     Returns:
         Response: JSON response with success or error message.
