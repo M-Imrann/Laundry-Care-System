@@ -2,7 +2,8 @@ name: Linter and Tester
 
 on:
   pull_request:
-    types: [opened, synchronize, reopened]
+    types: [opened, synchronize, reopened]  # runs on new PRs, new commits, or reopen
+  workflow_dispatch:                        # allows manual run from Actions tab
 
 jobs:
   Linter:
